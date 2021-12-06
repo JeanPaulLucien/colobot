@@ -1,8 +1,11 @@
 # Colobot: Gold Edition
 
+## О данном репозитории
+Данный репозиторий - форк репозитория Colobot: Gold Edtition, коорый сделан для того, чтоб завести поддержку Windows XP, которая отвалилась по пути (пв процессе сборки) програамы. Поэтому, завеозие Vusial Studio 2013 и собираете данный проект. Если он заведется, то всё отлично, баг исправлен иможно работаться. Если не, то гда ищем причину дальше.
+
 Welcome to the Colobot: Gold Edition project code repository
 
-This is official repository for the open-source Colobot: Gold Edition project developed by TerranovaTeam, part of International Colobot Community (ICC, previously known as Polish Portal of Colobot/PPC) with the official site at: [colobot.info](http://colobot.info/).
+This is unofficial repository for the open-source Colobot: Gold Edition project developed by TerranovaTeam, part of International Colobot Community (ICC, previously known as Polish Portal of Colobot/PPC) with the official site at: [colobot.info](http://colobot.info/).
 
 The source code contained here was released by Epsitec -- the original creator of the game -- on open source (GPLv3) license. The code was given and the rights granted specifically to ICC community in March 2012. Since then, we have been developing the game further.
 
