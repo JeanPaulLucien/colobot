@@ -124,34 +124,22 @@ So if you provided prefix "/some/prefix", you can run:
 ```
 
 ### Compiling on MacOS X
-
 As of 0.1.2-alpha, we have added MacOS X support. See [INSTALL-MacOSX.md](INSTALL-MacOSX.md)
 file for details.
 
-
 ### Other platforms
-
 The code isn't particularly tied to any compiler or platform, so in theory it should work on any platform provided you have
 the required libraries there.  Also, other compilers than currently supported (GCC >= 4.7, Clang >= 3.1 and MSVC 2013) may happen to work with our code.
 If you can, please try to compile the code on your platform and let us know how it goes.
 
-
 ## Error reports and debugging
-
-Before reporting errors, please make sure you compile the dev branch to make sure that the issue is not yet fixed there. Also, search the
-existing issues (https://github.com/colobot/colobot/issues) to check if a similar error has not been already reported.
-
-If you want to submit error reports, please use special Debug and Dev builds (add `-DDEV_BUILD=1 -DCMAKE_BUILD_TYPE=Debug` to CMake arguments)
-and run the game in debug mode and with logging on higher level (commandline arguments: `-loglevel debug`).
-
+Before reporting errors, please make sure you compile the dev branch to make sure that the issue is not yet fixed there. Also, search the existing issues (https://github.com/colobot/colobot/issues) to check if a similar error has not been already reported.
+If you want to submit error reports, please use special Debug and Dev builds (add `-DDEV_BUILD=1 -DCMAKE_BUILD_TYPE=Debug` to CMake arguments) and run the game in debug mode and with logging on higher level (commandline arguments: `-loglevel debug`).
 
 ## Language support
-
 In order to run colobot in different language, you need to run with fully installed data files.
 If you run a system with locale settings set to your language, colobot should auto-detect it and use appropriate language. If that does not happen,
 you can force a specific language using option `-language xx` where xx is language code like `en` or `de`. `-help` will show all possible settings.
 
-
 ## Help
-
-If you encounter any problems, you can get help at our forum or IRC channels.
+If you encounter any problems, you can get help here.
